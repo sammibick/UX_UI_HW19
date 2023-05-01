@@ -333,10 +333,8 @@
     position: absolute;
     top: 2135px;
     left: 127px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border: 5px solid rgba(44,0,0,1); 
+    border-radius: 4px; 
     overflow: hidden;
   }
   .v10_113 {
@@ -347,6 +345,7 @@
     position: absolute;
     top: 2714px;
     left: 127px;
+    border: 5px solid rgba(44,0,0,1); 
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -378,11 +377,11 @@
     left: 550px
   }
   .v10_93 {
-    width: 303px;
+    width: 290px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 2145px;
-    left: 127px;
+    left: 135px;
     font-family: Montserrat;
     font-weight: Regular;
     font-size: 30px;
@@ -390,11 +389,11 @@
     text-align: center;
   }
   .v10_114 {
-    width: 303px;
+    width: 290px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 2723px;
-    left: 127px;
+    left: 135px;
     font-family: Montserrat;
     font-weight: Regular;
     font-size: 30px;
@@ -685,4 +684,11 @@
     opacity: 1;
     text-align: left;
   }
-  
+  .newColor{
+    color: rgba(44,0,0,1);
+    background-color: white;
+}
+.test1 {
+  border: 5px solid black;
+  padding: 5px;
+}
